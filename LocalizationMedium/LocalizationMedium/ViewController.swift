@@ -57,7 +57,7 @@ extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
         if let contact = datasource?.contacts[indexPath.row] {
-            let message = NSLocalizedString(String(format: "Name: Mr. %@ %@ \nPhone: %@", contact.first_name, contact.last_name, contact.phone), comment: "The variables are ordered as per constructs for english. Can be reordered for other languages")
+            let message = String(format: NSLocalizedString("Name: Mr. %@ %@ \nPhone: %@", comment: "The variables are ordered as per constructs for english. Can be reordered for other languages"), contact.first_name, contact.last_name, contact.phone)
             let alertview = UIAlertController(title: "", message: message, preferredStyle: UIAlertControllerStyle.alert)
             let okAction = UIAlertAction(title: NSLocalizedString("OK", comment: ""), style: UIAlertActionStyle.cancel, handler: nil)
             alertview.addAction(okAction)

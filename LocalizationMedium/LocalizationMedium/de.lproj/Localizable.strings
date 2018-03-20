@@ -1,0 +1,6 @@
+/* The variables are ordered as per constructs for english. Can be reordered for other languages */
+"Name: Mr. %@ %@ \nPhone: %@" = "Name: Herr. %2$@, %1$@\nTelefon: %3$@";
+
+/* No comment provided by engineer. */
+"OK" = "OK";
+
