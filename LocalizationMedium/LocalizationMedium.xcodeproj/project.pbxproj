@@ -12,6 +12,8 @@
 		CDDBC59F20615A02003B6F45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDBC59D20615A02003B6F45 /* Main.storyboard */; };
 		CDDBC5A120615A02003B6F45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDDBC5A020615A02003B6F45 /* Assets.xcassets */; };
 		CDDBC5A420615A02003B6F45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDDBC5A220615A02003B6F45 /* LaunchScreen.storyboard */; };
+		CDDBC5AC20615D82003B6F45 /* ContactsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDDBC5AB20615D82003B6F45 /* ContactsTableViewCell.swift */; };
+		CDDBC5AE206164C5003B6F45 /* contacts.txt in Resources */ = {isa = PBXBuildFile; fileRef = CDDBC5AD206164C5003B6F45 /* contacts.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		CDDBC5A020615A02003B6F45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CDDBC5A320615A02003B6F45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CDDBC5A520615A02003B6F45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDDBC5AB20615D82003B6F45 /* ContactsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViewCell.swift; sourceTree = "<group>"; };
+		CDDBC5AD206164C5003B6F45 /* contacts.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = contacts.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		CDDBC59820615A02003B6F45 /* LocalizationMedium */ = {
 			isa = PBXGroup;
 			children = (
+				CDDBC5AD206164C5003B6F45 /* contacts.txt */,
 				CDDBC59920615A02003B6F45 /* AppDelegate.swift */,
 				CDDBC59B20615A02003B6F45 /* ViewController.swift */,
 				CDDBC59D20615A02003B6F45 /* Main.storyboard */,
 				CDDBC5A020615A02003B6F45 /* Assets.xcassets */,
 				CDDBC5A220615A02003B6F45 /* LaunchScreen.storyboard */,
 				CDDBC5A520615A02003B6F45 /* Info.plist */,
+				CDDBC5AB20615D82003B6F45 /* ContactsTableViewCell.swift */,
 			);
 			path = LocalizationMedium;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CDDBC5A420615A02003B6F45 /* LaunchScreen.storyboard in Resources */,
+				CDDBC5AE206164C5003B6F45 /* contacts.txt in Resources */,
 				CDDBC5A120615A02003B6F45 /* Assets.xcassets in Resources */,
 				CDDBC59F20615A02003B6F45 /* Main.storyboard in Resources */,
 			);
@@ -138,6 +145,7 @@
 			files = (
 				CDDBC59C20615A02003B6F45 /* ViewController.swift in Sources */,
 				CDDBC59A20615A02003B6F45 /* AppDelegate.swift in Sources */,
+				CDDBC5AC20615D82003B6F45 /* ContactsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
