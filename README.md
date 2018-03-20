@@ -4,7 +4,7 @@ A simple project detailing the process of text localization in an iOS app. This 
 
 1. Localization of strings in code (which needs to be wrapped in the macro
 
-> NSLocalizableString()
+> NSLocalizedString()
 
 2. Localization of strings hard-coded in the interface builder files like **.xib** and **.storyboard**.
 
